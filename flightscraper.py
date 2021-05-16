@@ -46,7 +46,7 @@ def infinite_loop():
 def sendemail(flight_name,flight_price):
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("night.r3d29.6.2000@gmail.com","UW9mey7#")
+    s.login("night.r3d29.6.2000@gmail.com","#")
     message = f"Flight prices dropeed! Flight name {flight_name} and flight price {flight_price}"
     s.sendmail("night.r3d25.5@gmail.com","tanishqa89@gmail.com",message)
     s.quit()
